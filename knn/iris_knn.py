@@ -8,7 +8,7 @@ norm = 1
 train = pd.read_csv('train.dat', sep = '_', header=None)
 test = pd.read_csv( 'test.dat', sep = '_', header=None )
 results = []
-for k in range(1, 25):
+for k in range(1, 11):
     num_correct = 0
     for i in test.index:
     #for i in range(1):
